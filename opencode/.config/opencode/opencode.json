@@ -1,0 +1,15 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "brainstormingbuddy.md"
+  ],
+  "compaction": {
+    "auto": true,
+    "prune": true,
+    "reserved": 300000 
+  },
+  "permission": {
+    "bash": "ask",
+    "edit": "ask"
+  }
+}
