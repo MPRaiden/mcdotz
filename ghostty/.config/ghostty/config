@@ -6,7 +6,8 @@ font-size = 12
 font-thicken = true
 font-thicken-strength = 175
 
-theme = Cobalt2 
+# theme = light:TokyoNight Day,dark:TokyoNight Moon
+theme = light:Rose Pine Dawn,dark:Rose Pine Moon
 
 cursor-style-blink = true
 mouse-hide-while-typing = true

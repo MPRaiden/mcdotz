@@ -1,15 +1,21 @@
 vim.pack.add { 'https://github.com/nvim-mini/mini.nvim' }
 
--- statusline
 require('mini.statusline').setup {
-  sections = { left = { 'mode' }, mid = { 'filename' }, right = { 'fileformat', 'filetype' } },
+  sections = {
+    left = { 'mode' },
+    mid = { 'filename' },
+    right = { 'fileformat', 'filetype' },
+  },
 }
 
--- misc
-require('mini.icons').setup()
+require('mini.misc').setup()
 
-require('mini.pairs').setup()
+require('mini.misc').setup_termbg_sync()
 
-require('mini.ai').setup()
+vim.defer_fn(function()
+  require('mini.icons').setup()
+end, 0)
 
-require('mini.indentscope').setup()
+vim.defer_fn(function()
+  require('mini.indentscope').setup()
+end, 0)
