@@ -1,19 +1,28 @@
 vim.pack.add {
   'https://github.com/folke/tokyonight.nvim',
 }
+
+require('tokyonight').setup {
+  styles = {
+    keywords = { italic = false },
+    floats = 'transparent',
+  },
+}
+
+-- vim.cmd 'colorscheme tokyonight-moon'
+
 vim.pack.add {
   {
     src = 'https://github.com/rose-pine/neovim',
     name = 'rose-pine',
   },
 }
-
-require('tokyonight').setup {
+require('rose-pine').setup {
+  disable_background = true,
   styles = {
-    floats = 'transparent',
+    italic = false,
+    transparency = true,
   },
 }
-require('rose-pine').setup()
 
--- vim.cmd 'colorscheme tokyonight'
-vim.cmd 'colorscheme rose-pine'
+vim.cmd 'colorscheme rose-pine-moon'

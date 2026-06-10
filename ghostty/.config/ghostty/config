@@ -1,15 +1,14 @@
 env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
-font-family = IoskeleyMono Nerd Font
-font-size = 12
+font-family = Ioskeley Mono 
+font-size = 13
 font-thicken = true
-font-thicken-strength = 175
+font-thicken-strength = 50
+font-feature = -calt, -liga, -dlig
 
-# theme = light:TokyoNight Day,dark:TokyoNight Moon
-theme = light:Rose Pine Dawn,dark:Rose Pine Moon
+theme = Rose Pine Moon
 
-cursor-style-blink = true
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
 
@@ -30,5 +29,8 @@ keybind = ctrl+[=previous_tab
 keybind = ctrl+]=next_tab
 keybind = ctrl+q=close_tab
 keybind = ctrl+s=start_search
+keybind = ctrl+a>v=new_split:right
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>l=goto_split:right
 
 window-save-state = never
