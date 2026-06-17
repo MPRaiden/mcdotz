@@ -2,12 +2,12 @@ env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
 font-family = Ioskeley Mono 
-font-size = 13
+font-size = 12
 font-thicken = true
 font-thicken-strength = 50
 font-feature = -calt, -liga, -dlig
 
-theme = Rose Pine Moon
+theme = TokyoNight Moon
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
