@@ -1,4 +1,8 @@
 if status is-interactive
+    function fish_right_prompt
+        date "+%a %b %d %I:%M %p"
+    end
+
     if test -f /opt/homebrew/bin/brew
         eval (/opt/homebrew/bin/brew shellenv)
     end
@@ -7,8 +11,6 @@ fish_add_path $HOME/go/bin
 fish_add_path $HOME/Library/Python/3.13/bin
 fish_add_path $HOME/.local/bin
 fish_add_path /opt/homebrew/opt/postgresql@16/bin
-
-# fish_config theme choose "Catppuccin Macchiato"
 
 set -gx EDITOR nvim
 set -gx GIT_EDITOR nvim
@@ -47,9 +49,6 @@ if type -q fzf
     bind \cf fzf-cd-widget
     bind -M insert \cf fzf-cd-widget
 end
-
-# Remove everything from right prompt
-set --universal tide_right_prompt_items
 
 set fzf_preview_dir_cmd ls -la --color
 

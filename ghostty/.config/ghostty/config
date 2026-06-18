@@ -2,7 +2,7 @@ env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
 font-family = Ioskeley Mono 
-font-size = 12
+font-size = 13
 font-thicken = true
 font-thicken-strength = 50
 font-feature = -calt, -liga, -dlig
