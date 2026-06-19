@@ -10,19 +10,3 @@ require('tokyonight').setup {
 }
 
 vim.cmd 'colorscheme tokyonight-moon'
-
-vim.pack.add {
-  {
-    src = 'https://github.com/rose-pine/neovim',
-    name = 'rose-pine',
-  },
-}
-require('rose-pine').setup {
-  disable_background = true,
-  styles = {
-    italic = false,
-    transparency = true,
-  },
-}
-
--- vim.cmd 'colorscheme rose-pine-moon'
