@@ -1,12 +1,16 @@
-vim.pack.add {
-  'https://github.com/folke/tokyonight.nvim',
-}
+vim.pack.add { { src = 'https://github.com/catppuccin/nvim', name = 'catppuccin' } }
 
-require('tokyonight').setup {
-  styles = {
-    keywords = { italic = false },
-    floats = 'transparent',
+require('catppuccin').setup {
+  flavour = 'auto', -- latte, frappe, macchiato, mocha
+  transparent_background = false, -- disables setting the background color.
+  float = {
+    transparent = true, -- enable transparent floating windows
+    solid = false, -- use solid styling for floating windows, see |winborder|
   },
+  no_italic = true, -- Force no italic
+  no_bold = false, -- Force no bold
+  auto_integrations = true,
 }
 
-vim.cmd 'colorscheme tokyonight-moon'
+-- setup must be called before loading
+vim.cmd.colorscheme 'catppuccin-nvim'

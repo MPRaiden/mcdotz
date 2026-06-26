@@ -1,0 +1,23 @@
+# This is Git's per-user configuration file.
+[user]
+	email = marin.peric@seekandhit.com
+	name = Marin Peric Radan
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[core]
+    editor = nvim
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true  # use n and N to move between diff sections
+
+[merge]
+    conflictStyle = zdiff3
