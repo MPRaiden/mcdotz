@@ -4,10 +4,11 @@ env = VISUAL=/opt/homebrew/bin/nvim
 font-family = Ioskeley Mono 
 font-size = 12
 font-thicken = true
-font-thicken-strength = 50
+font-thicken-strength = 100
 font-feature = -calt, -liga, -dlig
 
-theme = Catppuccin Latte
+# Dawnfox, Seoulbones Light
+theme = TokyoNight Day
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
@@ -25,13 +26,13 @@ window-padding-y = 10
 maximize = true
 fullscreen = true
 
-# keybind = ctrl+t=new_tab
-# keybind = ctrl+[=previous_tab
-# keybind = ctrl+]=next_tab
-# keybind = ctrl+q=close_tab
-# keybind = ctrl+s=start_search
-# keybind = ctrl+a>v=new_split:right
-# keybind = ctrl+a>h=goto_split:left
-# keybind = ctrl+a>l=goto_split:right
+keybind = ctrl+t=new_tab
+keybind = ctrl+[=previous_tab
+keybind = ctrl+]=next_tab
+keybind = ctrl+q=close_tab
+keybind = ctrl+s=start_search
+keybind = ctrl+a>v=new_split:right
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>l=goto_split:right
 
 window-save-state = never
