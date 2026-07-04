@@ -1,14 +1,41 @@
 env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
-font-family = Ioskeley Mono 
+# Ioskeley Mono, MonaspiceKr Nerd Font Mono, MonaspiceNe Nerd Font Mono
+font-family = MonaspiceNe Nerd Font Mono
 font-size = 12
 font-thicken = true
-font-thicken-strength = 100
+font-thicken-strength = 50
 font-feature = -calt, -liga, -dlig
+adjust-cell-height = 4%
 
-# Dawnfox, Seoulbones Light
-theme = TokyoNight Day
+# Custom paper theme matching Neovim
+background = #f6efe6
+foreground = #4e4945
+selection-background = #e4d5c4
+selection-foreground = #4e4945
+search-background = #ead9a7
+search-foreground = #4e4945
+cursor-color = #467fbe
+cursor-text = #f6efe6
+split-divider-color = #f0e5d9
+
+palette = 0=#4e4945
+palette = 1=#c07a70
+palette = 2=#7ea17a
+palette = 3=#c6a45d
+palette = 4=#467fbe
+palette = 5=#cb8d97
+palette = 6=#6c98c0
+palette = 7=#9a9086
+palette = 8=#6b655e
+palette = 9=#c07a70
+palette = 10=#7ea17a
+palette = 11=#c6a45d
+palette = 12=#467fbe
+palette = 13=#cb8d97
+palette = 14=#6c98c0
+palette = 15=#f6efe6
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
@@ -26,13 +53,13 @@ window-padding-y = 10
 maximize = true
 fullscreen = true
 
-keybind = ctrl+t=new_tab
-keybind = ctrl+[=previous_tab
-keybind = ctrl+]=next_tab
-keybind = ctrl+q=close_tab
-keybind = ctrl+s=start_search
-keybind = ctrl+a>v=new_split:right
-keybind = ctrl+a>h=goto_split:left
-keybind = ctrl+a>l=goto_split:right
+# keybind = ctrl+t=new_tab
+# keybind = ctrl+[=previous_tab
+# keybind = ctrl+]=next_tab
+# keybind = ctrl+q=close_tab
+# keybind = ctrl+s=start_search
+# keybind = ctrl+a>v=new_split:right
+# keybind = ctrl+a>h=goto_split:left
+# keybind = ctrl+a>l=goto_split:right
 
 window-save-state = never
