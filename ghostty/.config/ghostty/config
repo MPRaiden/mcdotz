@@ -1,13 +1,11 @@
 env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
-# Ioskeley Mono, MonaspiceKr Nerd Font Mono, MonaspiceNe Nerd Font Mono
-font-family = Menlo 
+font-family = Ioskeley Mono
 font-size = 12
-# font-thicken = true
-# font-thicken-strength = 50
+font-thicken = true
+font-thicken-strength = 100
 font-feature = -calt, -liga, -dlig
-# adjust-cell-height = 5%
 
 # Custom paper theme matching Neovim
 background = #f6efe6
@@ -53,13 +51,13 @@ window-padding-y = 10
 maximize = true
 fullscreen = true
 
-keybind = ctrl+t=new_tab
-keybind = ctrl+[=previous_tab
-keybind = ctrl+]=next_tab
-keybind = ctrl+q=close_tab
-keybind = ctrl+s=start_search
-keybind = ctrl+a>v=new_split:right
-keybind = ctrl+a>h=goto_split:left
-keybind = ctrl+a>l=goto_split:right
+# keybind = ctrl+t=new_tab
+# keybind = ctrl+[=previous_tab
+# keybind = ctrl+]=next_tab
+# keybind = ctrl+q=close_tab
+# keybind = ctrl+s=start_search
+# keybind = ctrl+a>v=new_split:right
+# keybind = ctrl+a>h=goto_split:left
+# keybind = ctrl+a>l=goto_split:right
 
 window-save-state = never
