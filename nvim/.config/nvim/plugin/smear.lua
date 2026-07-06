@@ -9,5 +9,7 @@ require('smear_cursor').setup {
   trailing_stiffness_insert_mode = 0.7, -- 0.5      [0, 1]
   damping = 0.95, -- 0.85     [0, 1]
   damping_insert_mode = 0.95, -- 0.9      [0, 1]
+  min_vertical_distance_smear = 2,
+  min_horizontal_distance_smear = 0.5, -- keep pure j/k steps from smearing
   distance_stop_animating = 0.5, -- 0.1      > 0
 }
