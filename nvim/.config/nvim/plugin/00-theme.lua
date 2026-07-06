@@ -77,6 +77,23 @@ require('rose-pine').setup {
 
   palette = {
     dawn = paper_pine_dawn,
+    main = {
+      base = '#1d1b2a',
+      surface = '#232133',
+      overlay = '#2b2840',
+      muted = '#6e6a86',
+      subtle = '#908caa',
+      text = '#e0def4',
+      love = '#eb6f92',
+      gold = '#f6c177',
+      rose = '#ebbcba',
+      pine = '#31748f',
+      foam = '#9ccfd8',
+      iris = '#c4a7e7',
+      highlight_low = '#252338',
+      highlight_med = '#44415a',
+      highlight_high = '#56526e',
+    },
   },
 
   highlight_groups = {
