@@ -19,6 +19,16 @@ set -gx GOOGLE_APPLICATION_CREDENTIALS "$HOME/terraform-keyfile.json"
 alias ls 'ls -la --color'
 alias v 'nvim'
 
+    # Keep git branch and dirty state visible in both system appearances.
+    set -l apple_interface_style (defaults read -globalDomain AppleInterfaceStyle 2>/dev/null)
+    if string match -q 'Dark' -- "$apple_interface_style"
+        set -g pure_color_git_branch a7b1c2
+        set -g pure_color_git_dirty d4b16a
+    else
+        set -g pure_color_git_branch 6b655e
+        set -g pure_color_git_dirty c6a45d
+    end
+
 export NODE_OPTIONS="--no-deprecation"
 
 # Optional: Allow Ctrl-P/N to cycle history even in Insert mode
