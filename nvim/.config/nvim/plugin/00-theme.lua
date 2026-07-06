@@ -5,7 +5,7 @@ vim.pack.add {
   },
 }
 require('rose-pine').setup {
-  variant = 'dawn', -- auto, main, moon, or dawn
+  variant = 'auto', -- auto, main, moon, or dawn
   dark_variant = 'main', -- main, moon, or dawn
   dim_inactive_windows = false,
   extend_background_behind_borders = true,
@@ -55,9 +55,9 @@ require('rose-pine').setup {
 
   palette = {
     dawn = {
-      base = '#f8f1e8',
-      surface = '#faf3eb',
-      overlay = '#f3e8dc',
+      base = '#f2e7da',
+      surface = '#f4e9dd',
+      overlay = '#ecdfcf',
       muted = '#9a92ab',
       subtle = '#7b7391',
       text = '#4e4945',
@@ -67,7 +67,7 @@ require('rose-pine').setup {
       pine = '#5588b3',
       foam = '#7aa0c0',
       iris = '#8576b0',
-      highlight_low = '#f3e8dc',
+      highlight_low = '#ecdfcf',
       highlight_med = '#d8c2a7',
       highlight_high = '#ead9a7',
     },
