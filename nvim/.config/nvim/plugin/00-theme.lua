@@ -6,9 +6,9 @@ vim.pack.add {
 }
 
 local paper_pine_dawn = {
-  base = '#f4eadf',
-  surface = '#f6ece1',
-  overlay = '#efe2d3',
+  base = '#f7efe7',
+  surface = '#f9f2eb',
+  overlay = '#f2e8de',
   muted = '#9a92ab',
   subtle = '#7b7391',
   text = '#4e4945',
@@ -18,7 +18,7 @@ local paper_pine_dawn = {
   pine = '#5588b3',
   foam = '#7aa0c0',
   iris = '#8576b0',
-  highlight_low = '#efe2d3',
+  highlight_low = '#f2e8de',
   highlight_med = '#d8c2a7',
   highlight_high = '#ead9a7',
 }
