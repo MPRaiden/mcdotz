@@ -24,10 +24,10 @@ local paper_pine_dawn = {
 }
 
 require('rose-pine').setup {
-  variant = 'dawn',
+  variant = 'auto',
 
   styles = {
-    bold = true,
+    bold = false,
     italic = false,
   },
 
@@ -86,10 +86,10 @@ require('rose-pine').setup {
   highlight_groups = {
     NormalFloat = { bg = 'surface' },
     FloatBorder = { fg = 'pine', bg = 'surface' },
-    FloatTitle = { fg = 'pine', bg = 'surface', bold = true },
+    FloatTitle = { fg = 'pine', bg = 'surface' },
     CursorLine = { bg = 'overlay' },
     CursorColumn = { bg = 'overlay' },
-    CursorLineNr = { fg = 'pine', bg = 'overlay', bold = true },
+    CursorLineNr = { fg = 'pine', bg = 'overlay' },
     LineNr = { fg = 'muted', bg = 'base' },
     SignColumn = { bg = 'base' },
     FoldColumn = { fg = 'muted', bg = 'base' },
@@ -98,13 +98,13 @@ require('rose-pine').setup {
     VisualNOS = { fg = 'text', bg = 'highlight_med', inherit = false },
     Search = { fg = 'text', bg = 'highlight_high' },
     IncSearch = { fg = 'base', bg = 'pine' },
-    MatchParen = { fg = 'rose', bg = 'highlight_med', bold = true },
+    MatchParen = { fg = 'rose', bg = 'highlight_med' },
 
     StatusLine = { fg = 'text', bg = 'overlay' },
     StatusLineNC = { fg = 'muted', bg = 'overlay' },
     TabLine = { fg = 'subtle', bg = 'overlay' },
     TabLineFill = { bg = 'overlay' },
-    TabLineSel = { fg = 'text', bg = 'base', bold = true },
+    TabLineSel = { fg = 'text', bg = 'base' },
 
     Pmenu = { fg = 'text', bg = 'surface' },
     PmenuBorder = { fg = 'pine', bg = 'surface' },
@@ -186,7 +186,7 @@ require('rose-pine').setup {
     FzfLuaCursorLineNr = { fg = 'pine', bg = 'highlight_med' },
     FzfLuaFzfNormal = { fg = 'text', bg = 'surface' },
     FzfLuaFzfCursorLine = { fg = 'text', bg = 'highlight_med' },
-    FzfLuaFzfMatch = { fg = 'pine', bold = true },
+    FzfLuaFzfMatch = { fg = 'pine' },
     FzfLuaFilePart = { fg = 'text' },
     FzfLuaDirPart = { fg = 'subtle' },
     FzfLuaPathLineNr = { fg = 'pine' },

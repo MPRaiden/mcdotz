@@ -6,7 +6,6 @@ local fzf = require 'fzf-lua'
 
 fzf.setup {
   -- 100 is full transparent
-  fzf_colors = true,
   winopts = {
     backdrop = 100,
   },
