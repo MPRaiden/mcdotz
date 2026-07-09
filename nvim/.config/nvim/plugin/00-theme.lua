@@ -29,6 +29,7 @@ require('rose-pine').setup {
   styles = {
     bold = false,
     italic = false,
+    transparency = false,
   },
 
   groups = {
@@ -65,21 +66,21 @@ require('rose-pine').setup {
   palette = {
     dawn = paper_pine_dawn,
     main = {
-      base = '#211f2e',
-      surface = '#272436',
-      overlay = '#2f2b45',
-      muted = '#6e6a86',
-      subtle = '#908caa',
-      text = '#e0def4',
+      base = '#2a273f',
+      surface = '#312d48',
+      overlay = '#393552',
+      muted = '#908caa',
+      subtle = '#b2accf',
+      text = '#f2ecff',
       love = '#eb6f92',
       gold = '#f6c177',
       rose = '#ebbcba',
-      pine = '#31748f',
+      pine = '#3b7d95',
       foam = '#9ccfd8',
       iris = '#c4a7e7',
-      highlight_low = '#2b283d',
-      highlight_med = '#484560',
-      highlight_high = '#5a5672',
+      highlight_low = '#322e4a',
+      highlight_med = '#5c5878',
+      highlight_high = '#7a7697',
     },
   },
 
@@ -112,7 +113,7 @@ require('rose-pine').setup {
     PmenuSbar = { bg = 'overlay' },
     PmenuThumb = { bg = 'highlight_med' },
 
-    Comment = { fg = 'muted', italic = true },
+    Comment = { fg = 'subtle', italic = true },
     Constant = { fg = 'gold' },
     String = { fg = '#e39a2d' },
     Character = { fg = '#e39a2d' },
@@ -173,7 +174,7 @@ require('rose-pine').setup {
 
     DiagnosticError = { fg = 'love' },
     DiagnosticWarn = { fg = 'gold' },
-    DiagnosticInfo = { fg = 'pine' },
+    DiagnosticInfo = { fg = 'foam' },
     DiagnosticHint = { fg = 'foam' },
 
     FzfLuaNormal = { link = 'NormalFloat' },

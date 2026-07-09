@@ -22,35 +22,9 @@ alias v 'nvim'
     # Keep git branch and dirty state visible in both system appearances.
     set -l apple_interface_style (defaults read -globalDomain AppleInterfaceStyle 2>/dev/null)
     if string match -q 'Dark' -- "$apple_interface_style"
-        set -g fish_color_normal e5e9f0
-        set -g fish_color_command 88c0d0
-        set -g fish_color_param d8dee9
-        set -g fish_color_redirection e5e9f0
-        set -g fish_color_keyword b48ead
-        set -g fish_color_option b48ead
-        set -g fish_color_operator 8fbcbb
-        set -g fish_color_quote ebcb8b
-        set -g fish_color_comment 6e778a
-        set -g fish_color_autosuggestion 6e778a
-        set -g fish_color_selection --background=4c566a
-        set -g fish_color_search_match --background=4c566a
-
         set -g pure_color_git_branch a7b1c2
         set -g pure_color_git_dirty d4b16a
     else
-        set -g fish_color_normal 4e4945
-        set -g fish_color_command 467fbe
-        set -g fish_color_param 4e4945
-        set -g fish_color_redirection 4e4945
-        set -g fish_color_keyword 8576b0
-        set -g fish_color_option 8576b0
-        set -g fish_color_operator 7ea17a
-        set -g fish_color_quote c6a45d
-        set -g fish_color_comment 9a9086
-        set -g fish_color_autosuggestion 9a9086
-        set -g fish_color_selection --background=d8c2a7
-        set -g fish_color_search_match --background=d8c2a7
-
         set -g pure_color_git_branch 6b655e
         set -g pure_color_git_dirty c6a45d
     end

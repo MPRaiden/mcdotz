@@ -1,27 +1,27 @@
-# Rose Pine dark variant with matching custom overrides
-background = #211f2e
-foreground = #e0def4
-selection-background = #484560
-selection-foreground = #e0def4
+# Rose Pine dark variant tuned for bright rooms
+background = #2a273f
+foreground = #f2ecff
+selection-background = #5c5878
+selection-foreground = #f2ecff
 search-background = #f6c177
-search-foreground = #211f2e
-# cursor-color = #9ccfd8
-# cursor-text = #191724
-split-divider-color = #26233a
+search-foreground = #232136
+cursor-color = #ffffff
+cursor-text = #232136
+split-divider-color = #393552
 
-palette = 0=#26233a
+palette = 0=#2a273f
 palette = 1=#eb6f92
-palette = 2=#31748f
+palette = 2=#3b7d95
 palette = 3=#f6c177
 palette = 4=#9ccfd8
 palette = 5=#c4a7e7
-palette = 6=#ebbcba
-palette = 7=#e0def4
-palette = 8=#6e6a86
-palette = 9=#eb6f92
-palette = 10=#31748f
-palette = 11=#f6c177
-palette = 12=#9ccfd8
-palette = 13=#c4a7e7
-palette = 14=#ebbcba
-palette = 15=#f6f3ff
+palette = 6=#ea9a97
+palette = 7=#e6e0f0
+palette = 8=#908caa
+palette = 9=#ff8fb3
+palette = 10=#4fa0b5
+palette = 11=#ffd089
+palette = 12=#b1e3ec
+palette = 13=#d8b8ff
+palette = 14=#f2b6b3
+palette = 15=#faf4ff
