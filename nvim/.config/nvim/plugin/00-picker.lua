@@ -9,6 +9,14 @@ vim.pack.add {
 local snacks = require 'snacks'
 
 snacks.setup {
+  indent = {
+    enabled = true,
+    only_scope = true,
+    scope = {
+      enabled = true,
+      char = '┊',
+    },
+  },
   picker = {
     layout = {
       hidden = { 'preview' },

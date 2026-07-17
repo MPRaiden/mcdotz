@@ -4,11 +4,7 @@ env = VISUAL=/opt/homebrew/bin/nvim
 font-family = Inconsolata 
 font-style = SemiBold
 font-size = 14
-font-feature = -calt, -liga, -dlig
-
-# theme = light:paper-pine-dawn,dark:rose-pine-custom
-# theme = light:TokyoNight Day,dark:TokyoNight Storm
-# theme = light:Catppuccin Latte ,dark:Catppuccin Macchiato
+# font-feature = -calt, -liga, -dlig
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
