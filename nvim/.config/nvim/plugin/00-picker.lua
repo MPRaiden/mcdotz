@@ -9,16 +9,6 @@ vim.pack.add {
 local snacks = require 'snacks'
 
 snacks.setup {
-  indent = {
-    enabled = true,
-    indent = {
-      only_scope = true,
-    },
-    scope = {
-      enabled = true,
-      char = '┊',
-    },
-  },
   picker = {
     layout = {
       hidden = { 'preview' },
@@ -47,6 +37,7 @@ snacks.setup {
         ignored = true,
         follow = true,
         exclude = { '.git', 'node_modules' },
+        layout = { hidden = {} },
       },
       recent = {
         filter = { cwd = true },
