@@ -11,7 +11,9 @@ local snacks = require 'snacks'
 snacks.setup {
   indent = {
     enabled = true,
-    only_scope = true,
+    indent = {
+      only_scope = true,
+    },
     scope = {
       enabled = true,
       char = '┊',
