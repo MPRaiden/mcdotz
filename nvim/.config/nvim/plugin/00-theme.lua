@@ -1,55 +1,28 @@
-vim.pack.add { 'https://github.com/rebelot/kanagawa.nvim' }
+vim.pack.add {
+  'https://github.com/navarasu/onedark.nvim',
+}
+require('onedark').setup {
+  style = 'cool',
+  transparent = true,
+  highlights = {
+    Pmenu = { bg = 'none' },
+    PmenuSbar = { bg = 'none' },
+    PmenuSel = { bg = 'none' },
+    NormalFloat = { bg = 'none' },
+    FloatBorder = { fg = 'none', bg = 'none' },
 
--- Default options:
-require('kanagawa').setup {
-  commentStyle = { italic = true },
-  functionStyle = {},
-  keywordStyle = { italic = false },
-  statementStyle = { bold = true },
-  typeStyle = {},
-  transparent = true, -- do not set background color
-  dimInactive = false, -- dim inactive window `:h hl-NormalNC`
-  terminalColors = true, -- define vim.g.terminal_color_{0,17}
-  colors = { -- add/modify theme and palette colors
-    palette = {},
-    theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
-  },
-  overrides = function(_)
-    local transparent = { bg = 'none' }
+    -- blink.cmp uses these for FloatBorder in its menu, docs, and signature
+    -- windows.  No foreground removes the visible frame entirely.
+    BlinkCmpMenu = { bg = 'none' },
+    BlinkCmpMenuBorder = { fg = 'none', bg = 'none' },
+    BlinkCmpMenuSelection = { bg = 'none' },
+    BlinkCmpDoc = { bg = 'none' },
+    BlinkCmpDocBorder = { fg = 'none', bg = 'none' },
+    BlinkCmpSignatureHelp = { bg = 'none' },
+    BlinkCmpSignatureHelpBorder = { fg = 'none', bg = 'none' },
 
-    return {
-      -- Generic floating windows and completion menus
-      NormalFloat = transparent,
-      FloatBorder = transparent,
-      Pmenu = transparent,
-      PmenuExtra = transparent,
-      PmenuKind = transparent,
-
-      -- snacks.nvim picker
-      SnacksPickerNormal = transparent,
-      SnacksPickerBorder = transparent,
-      SnacksPickerInput = transparent,
-      SnacksPickerInputBorder = transparent,
-      SnacksPickerList = transparent,
-      SnacksPickerListBorder = transparent,
-      SnacksPickerPreview = transparent,
-      SnacksPickerPreviewBorder = transparent,
-
-      -- blink.cmp
-      BlinkCmpMenu = transparent,
-      BlinkCmpMenuBorder = transparent,
-      BlinkCmpDoc = transparent,
-      BlinkCmpDocBorder = transparent,
-      BlinkCmpSignatureHelp = transparent,
-      BlinkCmpSignatureHelpBorder = transparent,
-    }
-  end,
-  theme = 'auto', -- Load "wave" theme
-  background = { -- map the value of 'background' option to a theme
-    dark = 'wave', -- try "dragon" !
-    light = 'lotus',
+    -- The brace highlighted by matchparen uses this group.
+    MatchParen = { fg = '$red', bg = 'none', fmt = 'bold' },
   },
 }
-
--- setup must be called before loading
-vim.cmd 'colorscheme kanagawa'
+require('onedark').load()
