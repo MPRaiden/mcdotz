@@ -3,7 +3,7 @@ env = VISUAL=/opt/homebrew/bin/nvim
 
 font-family = Inconsolata 
 font-style = SemiBold
-font-size = 14
+font-size = 15
 # font-feature = -calt, -liga, -dlig
 
 mouse-hide-while-typing = true
