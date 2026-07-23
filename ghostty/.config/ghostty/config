@@ -1,10 +1,10 @@
 env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
-font-family = Inconsolata 
-font-style = SemiBold
-font-size = 15
-# font-feature = -calt, -liga, -dlig
+font-size = 14
+font-feature = -calt, -liga, -dlig
+
+theme = Catppuccin Frappe
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
