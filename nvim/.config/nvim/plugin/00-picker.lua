@@ -15,8 +15,8 @@ snacks.setup {
       layout = {
         backdrop = false,
         row = 1,
-        width = 0.4,
-        min_width = 80,
+        width = 0.3,
+        min_width = 70,
         height = 0.4,
         border = 'none',
         box = 'vertical',

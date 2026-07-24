@@ -1,10 +1,10 @@
 env = EDITOR=/opt/homebrew/bin/nvim
 env = VISUAL=/opt/homebrew/bin/nvim
 
-font-size = 14
 font-feature = -calt, -liga, -dlig
 
 theme = Catppuccin Frappe
+cursor-color = white
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title
@@ -17,7 +17,7 @@ copy-on-select = true
 keybind = cmd+q=quit
 
 window-padding-x = 10
-window-padding-y = 5
+window-padding-y = 10
 
 maximize = true
 fullscreen = false
