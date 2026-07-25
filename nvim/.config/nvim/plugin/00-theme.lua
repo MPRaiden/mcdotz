@@ -3,9 +3,9 @@ vim.pack.add { { src = 'https://github.com/catppuccin/nvim', name = 'catppuccin'
 require('catppuccin').setup {
   flavour = 'auto', -- latte, frappe, macchiato, mocha
   background = {
-    light: 'latte',
-    dark: 'macchiato',
-    },
+    light = 'latte',
+    dark = 'macchiato',
+  },
   transparent_background = true, -- disables setting the background color.
   float = {
     transparent = true, -- enable transparent floating windows
