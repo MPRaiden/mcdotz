@@ -5,11 +5,7 @@
       "f f": "file_finder::Toggle",
       "f g": "pane::DeploySearch",
       "f h": "git::Diff",
-      "ctrl-r": "projects::OpenRecent",
-      "space e": "workspace::ToggleLeftDock",
-      //"space a": "agent::ToggleFocus",
-      "space s v": "pane::SplitRight",
-      "space s x": "pane::CloseActiveItem"
+      "ctrl-r": "projects::OpenRecent"
     }
   },
   {
@@ -18,13 +14,17 @@
       "g d": "editor::GoToDefinition",
       "g r": "editor::FindAllReferences",
       "f o": "pane::AlternateFile",
-      "space r n": "editor::Rename",
-      "space c a": "editor::ToggleCodeActions",
-      "space c d": "workspace::CloseActiveDock",
       "shift-k": "editor::Hover",
       "ctrl-r": "projects::OpenRecent",
       "ctrl-h": "workspace::ActivatePaneLeft",
-      "ctrl-l": "workspace::ActivatePaneRight"
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "space r n": "editor::Rename",
+      "space c a": "editor::ToggleCodeActions",
+      "space c d": "workspace::CloseActiveDock",
+      "space e": "workspace::ToggleLeftDock",
+      "space s v": "pane::SplitRight",
+      "space s x": "pane::CloseActiveItem",
+      "s": "vim::HelixJumpToWord"
     }
   }
 ]
