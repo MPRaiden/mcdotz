@@ -2,9 +2,6 @@
   {
     "context": "Workspace && !menu",
     "bindings": {
-      "f f": "file_finder::Toggle",
-      "f g": "pane::DeploySearch",
-      "f h": "git::Diff",
       "ctrl-r": "projects::OpenRecent"
     }
   },
@@ -13,6 +10,9 @@
     "bindings": {
       "g d": "editor::GoToDefinition",
       "g r": "editor::FindAllReferences",
+      "f f": "file_finder::Toggle",
+      "f g": "pane::DeploySearch",
+      "f h": "git::Diff",
       "f o": "pane::AlternateFile",
       "shift-k": "editor::Hover",
       "ctrl-r": "projects::OpenRecent",
