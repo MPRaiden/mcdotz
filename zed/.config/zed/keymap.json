@@ -26,5 +26,12 @@
       "space s x": "pane::CloseActiveItem",
       "s": "vim::HelixJumpToWord"
     }
+  },
+  {
+    "context": "EmptyPane && !menu",
+    "bindings": {
+      "f f": "file_finder::Toggle",
+      "f g": "pane::DeploySearch"
+    }
   }
 ]

@@ -9,6 +9,10 @@
 {
   "ui_font_family": "JetBrains Mono",
   "buffer_font_family": "JetBrains Mono",
+  "buffer_font_features": {
+    "calt": false,
+    "liga": false
+  },
   "agent": {
     "dock": "right",
     "sidebar_side": "right",
@@ -32,7 +36,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte - No Italics",
-    "dark": "Catppuccin Macchiato - No Italics"
+    "dark": "One Dark Pro"
   },
   "relative_line_numbers": "enabled",
   "project_panel": {
