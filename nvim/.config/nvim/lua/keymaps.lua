@@ -30,3 +30,7 @@ vim.keymap.set('v', '<', '<gv', { desc = 'Indent left and reselect' })
 vim.keymap.set('v', '>', '>gv', { desc = 'Indent right and reselect' })
 
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float)
+
+vim.keymap.set('n', 'af', '<C-^>', {
+  desc = 'Alternate file',
+})
