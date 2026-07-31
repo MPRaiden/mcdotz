@@ -4,7 +4,7 @@ env = VISUAL=/opt/homebrew/bin/nvim
 font-feature = -calt, -liga, -dlig
 font-size = 14
 
-theme = dark:Atom One Dark,light:Catppuccin Latte
+theme = dark:TokyoNight,light:TokyoNight Day
 
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor,no-sudo,title

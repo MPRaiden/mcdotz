@@ -13,7 +13,7 @@ vim.keymap.set('n', '<C-c>', 'ggVG"+y', opts)
 
 -- copy current file name
 vim.keymap.set('n', '<leader>fn', function()
-  local file = vim.fn.expand '%'
+  local file = vim.fn.expand '%:t'
   vim.fn.setreg('+', file)
   print('Copied: ' .. file)
 end, { desc = 'Yank current file path' })
@@ -31,6 +31,6 @@ vim.keymap.set('v', '>', '>gv', { desc = 'Indent right and reselect' })
 
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float)
 
-vim.keymap.set('n', 'af', '<C-^>', {
+vim.keymap.set('n', 'fs', '<C-^>', {
   desc = 'Alternate file',
 })

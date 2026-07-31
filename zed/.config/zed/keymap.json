@@ -13,7 +13,7 @@
       "f f": "file_finder::Toggle",
       "f g": "pane::DeploySearch",
       "f h": "git::Diff",
-      "f o": "pane::AlternateFile",
+      "f s": "pane::AlternateFile",
       "shift-k": "editor::Hover",
       "ctrl-r": "projects::OpenRecent",
       "ctrl-h": "workspace::ActivatePaneLeft",

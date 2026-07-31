@@ -35,8 +35,8 @@
   "buffer_font_size": 13,
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte - No Italics",
-    "dark": "One Dark Pro"
+    "light": "Tokyo Night Light",
+    "dark": "Tokyo Night"
   },
   "relative_line_numbers": "enabled",
   "project_panel": {
