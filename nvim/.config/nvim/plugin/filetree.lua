@@ -12,6 +12,12 @@ require('nvim-tree').setup {
   },
 }
 
+vim.api.nvim_create_autocmd('VimEnter', {
+  callback = function()
+    require('nvim-tree.api').tree.open { focus = false }
+  end,
+})
+
 local normal = vim.api.nvim_get_hl(0, { name = 'Normal', link = false })
 if normal.bg then
   for _, group in ipairs {
